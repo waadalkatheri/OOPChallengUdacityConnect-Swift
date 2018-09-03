@@ -16,13 +16,13 @@ class AreaTriangle  {
     //TODO: Decleration height property as a optional
     var height: Int = 10;
     
-    // Default Constructor (No parameter)
+    // Default init (No parameter)
     // (Used to create instance).
     init()  {
         
     }
     
-    //TODO : Contructor with 2 parameters.(Used to create instance)
+    //TODO : init with 2 parameters.(Used to create instance)
     // self.base refers to the base property of the class
   
     
@@ -33,7 +33,7 @@ class AreaTriangle  {
 
 print("Create a Triangle ");
 
-//TODO:  Create Rectangle objec via default constructor: init()
+//TODO:  Create Rectangle object via default constructor: init()
 
 
 //TODO: Print out width, height
