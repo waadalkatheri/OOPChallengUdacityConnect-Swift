@@ -2,7 +2,6 @@
 
 import Foundation
 
-
 class Rectangle  {
     
     // width property
@@ -23,12 +22,10 @@ class Rectangle  {
     init (width: Int, height: Int)  {
         self.width = width
         self.height = height
-        
     }
     
-    // A method calculates the area of the rectangle.
-    func getArea()  -> Int  {
-        
+    // A method that calculates the area of the rectangle.
+    func getArea() -> Int {
         let area = self.width! * self.height!
         return area
     }
